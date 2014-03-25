@@ -8,8 +8,8 @@
 
 Summary: Contains the code for showing of the tasks (results and progress) in the Hammer CLI
 Name: rubygem-%{gemname}
-Version: 0.0.1
-Release: 3%{?dist}
+Version: 0.0.2
+Release: 1%{?dist}
 Group: Development/Languages
 License: GPLv3
 URL: http://github.com/theforeman/hammer-cli-katello
@@ -64,6 +64,9 @@ cp -pa .%{gem_dir}/* \
 %doc %{geminstdir}/README.md
 
 %changelog
+* Tue Mar 25 2014 Ivan Nečas <inecas@redhat.com> 0.0.2-1
+- Bump version (inecas@redhat.com)
+
 * Thu Feb 27 2014 Jason Montleon <jmontleo@redhat.com> 0.0.1-3
 - fix package (jmontleo@redhat.com)
 
